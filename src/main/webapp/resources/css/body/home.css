@@ -1,0 +1,12 @@
+
+
+#body div.body img {
+    overflow: hidden;
+	display: block;
+	left: 50%;
+	margin: 0 auto 0 -507px;
+	padding: 0;
+	position: relative;
+	width: 1014px;
+	
+}

@@ -1,0 +1,35 @@
+#body .profile {
+	display: block;
+	margin: 40px 40px;
+}
+#body .profile img {
+	display: block;
+	float: left;
+	height:120px;
+}
+#body .profile div {
+	float: left;
+	margin: 0;
+	padding: 10px 0 0 40px;
+	width: 370px;
+}
+#body .profile h1 {
+	color: #CB3362;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 0 3px;
+	text-align: left;
+	text-transform: uppercase;
+}
+#body .profile p {
+	color: #7a6666;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 0 39px 0;
+	text-align: left;
+	width: 100%;
+}

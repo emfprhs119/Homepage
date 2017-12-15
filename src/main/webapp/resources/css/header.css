@@ -1,0 +1,92 @@
+/*----------------------------------------header-styles---------------------------------------*/
+#header {
+	background-color: #eeebec;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+#header div {
+	margin: 0 auto;
+	max-width: 940px;
+	overflow: hidden;
+	padding: 41px 10px 27px;
+}
+#header div a.logo {
+	float: left;
+	margin: 0 0 0 29px;
+	padding: 0;
+	width: auto;
+}
+#header div a.logo img {
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#header div ul {
+	display: inline-block;
+	float: right;
+	list-style: none outside none;
+	margin: 0 auto;
+	padding: 17px 0 0;
+	text-align: center;
+	width: 513px;
+}
+#header div ul li {
+	display: inline;
+	*float: left; /* Needed for IE7 and old versions */
+	margin: 0 35px;
+	padding: 0;
+	position: relative;
+	width: auto;
+}
+#header div ul li a {
+	color: #7a6666;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 15px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+#header div ul li.selected a, #header div ul li.selected a:hover {
+	color: #cb3362;
+}
+#header div ul li a:hover, #header div ul li.menu:hover ul li a {
+	color: #c8c10d;
+}
+#header div ul li ul li{
+        display: block;
+        
+}
+#header div ul li ul li a {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 15px;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+	text-transform: uppercase;
+}
+#header div ul li.menu {
+	min-height: 35px;
+	z-index: 80;
+}
+#header div ul li .subMenu{
+    display: none;
+}
+#header div ul li .subMenu li{
+    margin-left: 210px
+}
+#header div ul li div li{
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+#header div ul li.dropDownMenu:hover .subMenu {
+	display: block;
+}

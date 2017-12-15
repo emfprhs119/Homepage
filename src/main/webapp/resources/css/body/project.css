@@ -1,0 +1,88 @@
+
+#body div.blog {
+	margin: 0 auto;
+	max-width: 990px;
+	overflow: hidden;
+	padding: 15px 0 146px;
+}
+
+#body div.blog .featured {
+	background-color: #EFEDEE;
+	float: left;
+	margin: 0 0 0 10px;
+	padding:  0 0 10px 0;
+	width: 650px;
+}
+
+#body div.blog .featured ul {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+
+#body div.blog .featured ul li {
+	float: left;
+	margin: 10px 0px 10px 10px;
+	border-bottom:2px solid #444444;
+	overflow: hidden;
+	padding: 0 0 20px 0px;
+	width: auto;
+}
+
+#body div.blog .featured ul li img {
+	
+	float: left;
+	margin: auto;
+	padding: 0 0;
+	width: 150px;
+	height: 150px;
+}
+#body div.blog .featured ul li div {
+	float: left;
+	margin: 0;
+	padding: 0 0 0 10px;
+	width: 370px;
+}
+#body div.blog .featured ul li div h1 {
+	color: #CB3362;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 0 3px;
+	text-align: left;
+	text-transform: uppercase;
+}
+#body div.blog .featured ul li div span {
+	color: #7A6666;
+	display: block;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 0 24px;
+	text-align: left;
+	text-transform: none;
+}
+#body div.blog .featured ul li div p {
+	color: #7a6666;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 0 39px 0;
+	text-align: left;
+	width: 100%;
+}
+#body div.blog .featured ul li div p a {
+	color: #7a6666;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}

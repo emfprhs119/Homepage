@@ -1,0 +1,97 @@
+#body .sidebar p {
+}
+
+#body .sidebar {
+	background-color: #EFEDEE;
+	float: left;
+	margin: 0 10px;
+	padding:  0 20px 71px;
+	width: 240px;
+}
+#body .sidebar h1 {
+	color: #CB3362;
+	font-family: magra-bold-webfont;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 42px 0 29px;
+	text-align: center;
+	text-transform: capitalize;
+}
+#body .sidebar img {
+	display: block;
+	float: none;
+	margin: auto;
+	padding: auto;
+	width: 150px;
+	height: 150px;
+}
+#body .sidebar h2 {
+	color: #CB3362;
+	font-family: lato-regular-webfont;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 34px 0 3px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#body .sidebar span {
+	color: #7A6666;
+	display: block;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 0 24px;
+	text-align: center;
+	text-transform: none;
+	
+	
+}
+#body .sidebar p {
+	color: #7A6666;
+	display: block;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0 auto;
+	padding: 0 0 64px;
+	text-align: center;
+	text-transform: none;
+	width: 200px;
+	
+}
+#body .sidebar p a {
+	color: #7a6666;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+#body .sidebar a.more {
+	border: 2px solid #d3c2c7;
+	color: #a5838e;
+	display: block;
+	font-size: 16px;
+	font-weight: normal;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 156px;
+}
+#body .sidebar a.more:hover {
+	background-color: #c8c10d;
+	border: none;
+	color: #ffffff;
+	height: 40px;
+	line-height: 40px;
+	width: 160px;
+}

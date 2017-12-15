@@ -1,0 +1,16 @@
+{"projects": [
+
+{"name":"PCD_APP",
+"img":"http://finda.photo/image/11603/thumbnail/original",
+"url":"https://github.com/emfprhs119/Pcd_App",
+"describe":"input - pcd and number<br>outout - circle and calced size.",
+"makeby":"By ha_min_soo on Dec 6, 2017"},
+
+{"name":"견적서",
+"img":"http://d1841mjet2hm8m.cloudfront.net/thumb-900/fr_1099/1720/44/f40967e537cad90908f34e31b5b1b905.jpg",
+"url":"https://github.com/emfprhs119/estimate",
+"describe":"견적서 작성 프로그램.",
+"makeby":"By ha_min_soo on Aug 5, 2017"}
+
+
+]}
