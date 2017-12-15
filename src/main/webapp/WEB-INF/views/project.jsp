@@ -31,7 +31,7 @@
 								</div></li>
 						</c:forEach>
 					</ul>
-					<a href="https://github.com/emfprhs119" class="load">Load More</a>
+					<a href="https://github.com/emfprhs119?tab=repositories" class="load">Load More</a>
 				</div>
 				<div class="sidebar">
 					<h1>Recent Project</h1>
