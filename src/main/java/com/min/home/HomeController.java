@@ -29,33 +29,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class HomeController {
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
-/*
-	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String he(Locale locale, Model model) {
-		Date date = new Date();
-		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
 
-		String formattedDate = dateFormat.format(date);
-
-		model.addAttribute("serverTime", formattedDate);
-
-		return "index";
-	}
-	*/
-/*
-	@RequestMapping(value = "/ab", method = RequestMethod.GET)
-	public String home(Locale locale, Model model, HttpServletRequest request, @ModelAttribute("msg") String abc) {
-		logger.info("Welcome home! The client locale is {}.", locale);
-
-		Map<String, String> map = new HashMap<String, String>();
-		map.put("userid", "userid-02");
-		map.put("userpw", "userpw-02");
-		
-		model.addAttribute("yo", map);
-		model.addAttribute("bodyhtml", readHtml("home.html"));
-		return "index";
-	}
-	*/
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String index(Model model) {
 		return home(model);
@@ -109,14 +83,9 @@ public class HomeController {
 		JSONArray devs=(JSONArray) obj.get("projects");
 		for(int i=0;i<devs.size();i++) {
 			obj=(JSONObject) devs.get(i);
-			//System.out.println(getMapFromJsonObject(obj).get("name"));
 			devList.add(getMapFromJsonObject(obj));
 		}
-		//devList.add(dev.getMap());
 		model.addAttribute("projectList", devList);
-		//model.addAttribute("bodyhtml", readHtml("body/project.html"));
-		//model.addAttribute("json",readJSON("json/test.json"));
-		
 		return "project";
 	}
 	
@@ -125,7 +94,6 @@ public class HomeController {
 		try {
 			InputStream is = resource.getInputStream();
 			InputStreamReader isr = new InputStreamReader(is,"UTF-8");
-			//System.out.println(IOUtils.toString(isr));
 			return IOUtils.toString(isr);
 		} catch (IOException e) {
 			e.printStackTrace();

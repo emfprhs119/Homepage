@@ -1,3 +1,6 @@
 Homepage
 ===============
-Homepage init
+
+Screenshot
+------------
+![capture](/capture.png)
